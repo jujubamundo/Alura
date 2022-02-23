@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2{
-	font-size: 34px;
+	font-size: 31px;
 }
 
 .produtos h2 {
@@ -91,14 +91,11 @@ footer{
 	padding: 40px 0;
 }
 
+
 .copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
 }
 
 form{
@@ -251,18 +248,100 @@ td, th {
 	margin: 2em auto;
 }
 
-@media screen and (max-width: 480px ) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-		width: auto;
-	}
-	h1{
-		text-align: center;
-	}
-	nav{
-		position: static;
-	}
+@media screen and (max-width: 480px){ .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{ width: auto; }
+
+h1{
+    text-align: center;
 }
 
-.lista-beneficios, .imagem-beneficios{
-	width: 100%;
+nav{
+    position: static;
+    text-align: center;
+}
+
+.utensilios{
+    width: 6em;
+    display: block;
+    margin: 1em;
+}
+
+.lista-beneficios, .imagem-benefícios{
+    width: 100%;
+}
+.principal, .paragrafos{ text-align: justify; }
+
+.paragrafos{
+    text-indent: 2em;
+}
+
+.paragrafo-mapa{
+    padding: 0.5em 2em;
+}
+
+.principal, .mapa, .beneficios{
+    padding: 1em 0;
+}           
+
+.lista-beneficios{
+    margin: 0 0 2em;
+}
+
+.titulo-principal, .principal, .mapa-conteudo, .conteudo-beneficios{
+    margin: 1em 1em;
+}
+
+.titulo-principal{
+    font-size: 1em;
+}
+
+.video{
+    margin: 2em 2em 4em;
+}
+
+.imagem-beneficios{
+    margin: 0 0 2em;
+}
+
+.produtos{
+    width: auto;
+    margin: 1em;
+    padding: 2em 2em;
+}    
+
+.produtos li{
+     display: block;
+    text-align: center;
+    width: auto;
+    margin: 1.5em 0;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 3em;
+}
+
+form{
+    margin: 3em 2em;
+}
+
+.input-padrao{  
+    width: 80%;
+}
+
+.enviar{
+    font-size: 1em;
+    width: 100%;
+    padding: 1em;
+}
+
+table{
+    margin: 0 auto 4em;
+}COPIAR CÓDIGO
 }
